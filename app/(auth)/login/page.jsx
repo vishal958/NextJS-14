@@ -44,7 +44,7 @@ const LoginPage = () => {
   };
 
   return (
-    <Grid p={4} as={Paper} container sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '400px' }}>
+    <Grid p={1} as={Paper} container sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '400px' }}>
       <Grid item xs={12}><Typography variant="h6" textAlign="center">Login</Typography></Grid>
       {error && <Grid item xs={12}><Alert severity="error">{error}</Alert></Grid>}
       <Grid item xs={12}>

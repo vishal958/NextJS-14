@@ -42,7 +42,7 @@ const SignupPage = () => {
     };
 
     return (
-        <Grid p={4} as={Paper} container alignItems="center" justifyContent="center" spacing={2}>
+        <Grid p={1} as={Paper} container alignItems="center" justifyContent="center" spacing={2}>
             <Grid item xs={12}><Typography textAlign="center">Please Register</Typography></Grid>
             {error && <Grid item xs={12}><Alert severity="error">{error}</Alert></Grid>}
             <Grid item xs={12}>
@@ -83,7 +83,7 @@ const SignupPage = () => {
                             pattern: '',
                         }}
                     />
-                    <Button sx={{ textAlign: 'center' }} disabled={!isValid} type="submit">Sign In</Button>
+                    <Button sx={{ textAlign: 'center' }} disabled={!isValid} type="submit">Sign Up</Button>
                 </form>
             </Grid>
         </Grid>
